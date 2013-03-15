@@ -72,3 +72,9 @@ a:active {
 	font-family: Georgia, Times, serif;
 	letter-spacing: 0.05em;
 }
+
+#navigation {
+	width: 180px;
+	border: 1px dotted navy;
+	background-color: #7da5d8;
+}
