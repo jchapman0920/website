@@ -124,3 +124,16 @@ a:active {
 img {
 	border: 15px solid white;
 }
+
+.galleryphoto p {
+	font-size: 65%;
+	font-weight: bold;
+	margin-top: 0;
+	width: 430px;
+	line-height: 1.4em;
+}
+
+.photocredit {
+	font-weight: normal;
+	color: gray;
+}
