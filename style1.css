@@ -6,22 +6,34 @@ body {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	background-color: #e2edff;
 	line-height: 125%;
-	padding: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
 }
 
 h1 {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: x-large;	
+	font-size: x-large;
+	background-color: navy;
+	color: white;
+	padding-top: 2em;
+	padding-bottom: .2em;
+	padding-left: .4em;
+	margin: 0;	
+}
+
+h2 {
+	color: navy;
+	font-size: 130%;
+	font-weight: normal;
+	padding-top: 15px;
 }
 
 li {
 	font-size: small;
-}
-
-h2 {
-	color: blue;
-	font-size: medium;
-	font-weight: normal;
+	list-style-type: none;
 }
 
 p {
@@ -36,12 +48,13 @@ em {
 #tagline p {
 	font-style: italic;
 	font-family: Georgia, Times, serif;
-}
-
-h1, h2, h3 {
-	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
-	background-color: navy;
-	color: white;
+	background-color: #bed8f3;
+	border-top: 3px solid #7da5d8;
+	border-bottom: 3px solid #7da5d8;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	padding-left: .8em;
+	margin: 0;
 }
 
 a {
@@ -49,11 +62,11 @@ a {
 }
 
 a:link {
-	color:black;
+	color: black;
 }
 
 a:visited {
-	color: gray;
+	color: navy;
 }
 
 a:hover {
@@ -64,7 +77,6 @@ a:hover {
 
 a:active {
 	color: aqua;
-	background-color: navy;
 }
 
 .fun {
@@ -75,6 +87,40 @@ a:active {
 
 #navigation {
 	width: 180px;
-	border: 1px dotted navy;
 	background-color: #7da5d8;
+}
+
+/*
+#header, #sitebranding, #tagline, #navigation, #bodycontent {
+	border: 1px solid red;
+	padding: 2px;
+	margin-bottom: 2px;
+}
+*/
+
+#navigation, #bodycontent, #header {
+	position: absolute;
+}
+
+#navigation, #bodycontent {
+	top: 105px;
+	margin: 0;
+}
+
+#bodycontent {
+	left: 200px;
+}
+
+#header {
+	width: 100%;
+	border-top: 3px solid #7da5d8;
+}
+
+.feature {
+	float: right;
+	margin: 10px;
+}
+
+img {
+	border: 15px solid white;
 }
