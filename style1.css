@@ -151,4 +151,20 @@ img {
 	margin-bottom: 10px;
 }
 
+table.events {
+	border-collapse: collapse;
+}
 
+table.events th, table.events td {
+	padding: 4px;
+	border: 1px solid #000066;
+}
+
+table.events th {
+	font-size: x-small;
+	text-align: left;
+}
+
+table.events td {
+	font-size: small;
+}
