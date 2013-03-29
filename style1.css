@@ -163,8 +163,23 @@ table.events th, table.events td {
 table.events th {
 	font-size: x-small;
 	text-align: left;
+	background: #241374 url(archive/sitepoint/chapter9/website_files/backgrounds/header-bg.jpg);
+	color: #ffffff;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 table.events td {
 	font-size: small;
+	background: #e2edff url(archive/sitepoint/chapter9/website_files/backgrounds/td.jpg) repeat-x top;
+}
+
+table.events caption {
+	color: #000066;
+	font-size: small;
+	text-align: left;
+	padding-bottom: 5px;
+	font-weight: bold;
 }
