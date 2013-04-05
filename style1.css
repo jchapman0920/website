@@ -138,6 +138,9 @@ img {
 
 .galleryphoto img {
 	border: 15px solid white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px gray;
+	margin-bottom: 10px;
 }
 
 .photocredit {
