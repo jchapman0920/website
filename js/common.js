@@ -5,6 +5,8 @@ $(document).ready(function(){
 	$("#eventdate").val("Format DDMMYYYY");
 	$("#details").val("The more you can enter here, the less we have to check with you :)");
 	$("input, textarea").focus(function(){
-		$(this).select();
-	});
+		$(this).select();});
+	$(".caption").hide();
+	$(".galleryphoto").hover(function(){
+			$(this).find(".caption").slideDown('medium');},function(){$(this).find(".caption").slideUp('medium');});
 });
